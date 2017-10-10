@@ -107,6 +107,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-dependency-context-test", "TestAssets\TestPackages\dotnet-dependency-context-test\dotnet-dependency-context-test.csproj", "{48A62BA4-D798-46A2-AB49-8A8471CF8165}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-dependency-tool-invoker", "TestAssets\TestPackages\dotnet-dependency-tool-invoker\dotnet-dependency-tool-invoker.csproj", "{7C3D62C6-1D71-4C45-872F-7583F2AB304A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mono-invoker", "mono-invoker\mono-invoker.csproj.csproj", "{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-desktop-and-portable", "TestAssets\TestPackages\dotnet-desktop-and-portable\dotnet-desktop-and-portable.csproj", "{79B4932C-3D57-494B-95AF-E5624F9D2F01}"
 EndProject
@@ -318,6 +319,30 @@ Global
 		{7C3D62C6-1D71-4C45-872F-7583F2AB304A}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
 		{7C3D62C6-1D71-4C45-872F-7583F2AB304A}.RelWithDebInfo|x86.ActiveCfg = Release|Any CPU
 		{7C3D62C6-1D71-4C45-872F-7583F2AB304A}.RelWithDebInfo|x86.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|x64.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|x64.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|x86.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Debug|x86.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|Any CPU.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|x64.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|x64.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|x86.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.MinSizeRel|x86.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|x64.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|x64.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|x86.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.Release|x86.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|Any CPU.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|x64.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|x86.ActiveCfg = Release|Any CPU
+		{E09C2A38-5C63-48A8-A66E-4D45EBD09D31}.RelWithDebInfo|x86.Build.0 = Release|Any CPU
 		{79B4932C-3D57-494B-95AF-E5624F9D2F01}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{79B4932C-3D57-494B-95AF-E5624F9D2F01}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{79B4932C-3D57-494B-95AF-E5624F9D2F01}.Debug|x64.ActiveCfg = Release|Any CPU
